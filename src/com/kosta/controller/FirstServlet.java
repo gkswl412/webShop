@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class LoginServlet
  */
+//이 부분이 수정됨
 //서버가 시작될때 @을 해석함 '유저가 뭐라고 요청했니?' / 빠져있으면 서버 시작할때 에러
 @WebServlet({ "/LoginServlet", "/first", "/monday/one" })
 public class FirstServlet extends HttpServlet {
